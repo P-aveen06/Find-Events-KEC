@@ -1,13 +1,26 @@
 import React from "react";
 import { Button } from "primereact/button";
+import ProgramGif from "./Program.gif";
 const Programmes = () => {
   return (
     <div>
       <div className="surface-0 m-auto">
-        <div className="text-5xl mb-4 text-center">
-          <p style={{fontStyle:'30px'}}>Programmes</p>
+        <div className="text-5xl text-center">
+          <span className="mb-0">
+            <p className="mt-4" style={{ fontStyle: "30px" }}>
+              Programmes
+            </p>
+            <input
+              type="image"
+              img
+              src={ProgramGif}
+              alt="photo"
+              width="48px"
+              height="48px"
+            />
+          </span>
         </div>
-        <div className="text-700 text-xl mb-6 text-center line-height-3">
+        <div className="text-700 text-xl mt-0 mb-6 text-center line-height-3">
           UG & PG Program in Kongu Engineering College
         </div>
 

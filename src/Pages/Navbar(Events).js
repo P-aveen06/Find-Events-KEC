@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "primereact/button";
 import "primeicons/primeicons.css";
+import "primereact/resources/themes/lara-light-indigo/theme.css"; 
+import "primereact/resources/primereact.min.css"; 
 const Navbar = () => {
   return (
     <div className="m-auto  mt-2 w-1024px flex justify-content-between">
@@ -19,12 +21,6 @@ const Navbar = () => {
         />
       </div>
       <div className="w-400px flex justify-content-around">
-        <div className="m-auto">
-          <Button
-            label="Events"
-            className="p-button-raised p-button-secondary p-button-text"
-          />
-        </div>
         <div className="m-auto">
           <Button
             label="Contact"
