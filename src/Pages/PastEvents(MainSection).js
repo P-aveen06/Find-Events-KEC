@@ -4,7 +4,7 @@ const PastEvents = () => {
   return (
     <div>
       <div>
-        <p >Past Events 2021-2022</p>
+        <p style={{fontSize:'30px'}}>Past Events 2021-2022</p>
         <input type="image" img src = {PastEventsGif} alt="photo" width='100px' height='100px'/>
       </div>
       <div className="surface-ground px-4 py-5 md:px-6 lg:px-8">

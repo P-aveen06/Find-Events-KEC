@@ -4,8 +4,8 @@ const Programmes = () => {
   return (
     <div>
       <div className="surface-0 m-auto">
-        <div className="text-900 font-bold text-6xl mb-4 text-center">
-          Programmes
+        <div className="text-5xl mb-4 text-center">
+          <p style={{fontStyle:'30px'}}>Programmes</p>
         </div>
         <div className="text-700 text-xl mb-6 text-center line-height-3">
           UG & PG Program in Kongu Engineering College
