@@ -16112,6 +16112,10 @@
   font-size: 1.6rem;
   color: grey;
 }
+#i-nav:hover{
+    color: black;
+    cursor: pointer;
+}
 #nav {
   padding: 4px 10px;
 }
@@ -16126,6 +16130,12 @@
 }
 .w-624px {
   width: 624px;
+}
+.w-112px{
+    width: 112px;
+}
+.w-700px{
+    width:700px;
 }
 .w-2 {
   max-width: 2rem;
@@ -16158,4 +16168,15 @@
   border-radius: 6px;
   border-color: black;
   color:black;
+}
+.toast-demo button {
+    min-width: 10rem;
+    margin-right: .5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .toast-demo button {
+        width: 100%;
+        margin-bottom: .5rem;
+    }
 }
