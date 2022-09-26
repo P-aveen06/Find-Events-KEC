@@ -1,5 +1,36 @@
-.font-3rem{
+#i{
     font-size: 3rem;
+}
+#i-nav{
+    font-size: 1.6rem;
+    color: grey;
+}
+#nav{
+    padding: 4px 10px;
+}
+#nav:hover{
+    color:black;
+}
+.w-1024{
+    width:1024px;
+}
+.w-332{
+    width:332px;
+}
+.w-2{
+    max-width:2rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-11px{
+    margin-top: 11px;
+}
+.mb-11px{
+    margin-bottom: 11px;
+}
+.p-auto{
+    padding: auto;
 }
 .grid {
     display: flex;

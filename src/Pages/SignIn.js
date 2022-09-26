@@ -5,13 +5,13 @@ import { Checkbox } from "primereact/checkbox";
 import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
 import "primereact/resources/primereact.min.css"; //core css
 import "primeicons/primeicons.css"; //icons
-import "./signin.css";
+
 const SignIn = () => {
   const [checked1, setChecked1] = useState("");
   return (
     <div className="surface-card p-4 shadow-2 border-round w-full lg:w-6 m-auto align-center">
       <div className="text-center mb-5">
-        <i className="pi pi-sign-in font-3rem"></i>
+        <i className="pi pi-sign-in" id='i'></i>
         <div className="text-900 text-3xl font-medium mb-3">OOPs! Sign In</div>
         <span className="text-600 font-medium line-height-3">
           Don't have an account?
