@@ -67,7 +67,6 @@ const Info = () => {
                 paveenpradeep2@gmail.com
               </a>
             </div>
-
             <div>
               <label
                 htmlFor="email"
@@ -75,8 +74,12 @@ const Info = () => {
               >
                 Email
               </label>
-              <InputText id="email" type="text" className="w-full mb-3" required/>
-
+              <InputText
+                id="email"
+                type="text"
+                className="w-full mb-3"
+                required
+              />
               <label
                 htmlFor="Comment"
                 className="block text-900 font-medium mb-2"
@@ -91,7 +94,6 @@ const Info = () => {
                 cols={30}
                 required
               />
-
               <Button
                 label="Send"
                 className="p-button-success mt-3"

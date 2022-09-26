@@ -16118,6 +16118,7 @@
 }
 #nav {
   padding: 4px 10px;
+  font-size: 2rem;
 }
 #nav:hover {
   color: black;
@@ -16136,6 +16137,9 @@
 }
 .w-700px{
     width:700px;
+}
+.w-400px{
+    width: 400px;
 }
 .w-2 {
   max-width: 2rem;

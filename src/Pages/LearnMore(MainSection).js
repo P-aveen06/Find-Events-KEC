@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "primereact/button";
-import image from './event.jpg'
+import image from './event.gif'
 const LearnMore = () => {
   return (
     <div className="flex m-auto mt-3 justify-content-between" >
@@ -16,7 +16,7 @@ const LearnMore = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <Button label="Learn More" id="learn" />
+        <Button label="Learn More" className="p-button-raised p-button-secondary p-button-text" />
       </div>
       <div>
       <input type="image" img src = {image} alt="photo" width='300px' height='300px'/>
