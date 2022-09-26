@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar(Home)';
-import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
-import "primereact/resources/primereact.min.css"; //core css
-import "primeicons/primeicons.css"; //icons
+// import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
+// import "primereact/resources/primereact.min.css"; //core css
+// import "primeicons/primeicons.css"; //icons
 import MainSection from './MainSection(Home)';
 import Footer from './Footer(Home)';
 const HomePage=() => {
