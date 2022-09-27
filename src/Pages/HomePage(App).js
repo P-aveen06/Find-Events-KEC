@@ -11,7 +11,7 @@ const HomePage=() => {
             <Navbar/>
             <hr width='1024px'/>
             <MainSection/>
-            <hr className='w-1024px mb-5'/>
+            {/* <hr className='w-1024px mb-5'/> */}
             <Footer/>
         </div>
     )

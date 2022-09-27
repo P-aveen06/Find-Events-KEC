@@ -16126,6 +16126,9 @@
 .w-1024px {
   width: 1024px;
 }
+.w-160px{
+  width: 140px;
+}
 .w-332px {
   width: 332px;
 }
@@ -16135,8 +16138,14 @@
 .w-112px{
     width: 112px;
 }
+.w-72px{
+  width: 72px;
+}
 .w-700px{
     width:700px;
+}
+.w-600px{
+  width: 500px;
 }
 .w-400px{
     width: 400px;
@@ -16261,4 +16270,3 @@
         min-width: 0;
     }
 }
-             
