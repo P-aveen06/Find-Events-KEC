@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "primereact/button";
 import { InputText } from "primereact/inputtext";
 import { Checkbox } from "primereact/checkbox";
+import {Link} from 'react-router-dom';
 import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
 import "primereact/resources/primereact.min.css"; //core css
 import "primeicons/primeicons.css"; //icons
@@ -33,12 +34,9 @@ const SignIn = () => {
             <span className="text-600 font-medium line-height-3">
               Don't have an account?
             </span>
-            <a
-              className="font-medium no-underline ml-2 text-blue-500 cursor-pointer"
-              href="*"
-            >
+            <Link to='/signup'>
               Create today!
-            </a>
+            </Link>
           </div>
 
           <div>
