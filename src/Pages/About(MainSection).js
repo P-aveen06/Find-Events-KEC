@@ -5,7 +5,7 @@ import { ToggleButton } from "primereact/togglebutton";
 const About= () => {
   const [checked, setChecked] = useState(false);
   return (
-    <div className="m-auto w-1024px flex justify-content-around">
+    <div className="m-auto w-1024px flex justify-content-around" id="about">
       <div className="Card">
         <img alt="Card" src={img} width="300px" height="300px" />
         <Card

@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "primereact/button";
+import { Link } from 'react-router-dom';
 import "primeicons/primeicons.css";
 import "primereact/resources/themes/lara-light-indigo/theme.css"; 
 import "primereact/resources/primereact.min.css"; 
@@ -7,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="m-auto  mt-2 w-1024px flex justify-content-between">
       <div className="w-2 mt-11px mb-11px align-item-center">
-        <Button
+        <Link to='/'><Button
           icon="pi pi-home"
           className="p-button-rounded p-button-secondary p-button-text"
           aria-label="Bookmark"
@@ -19,6 +20,7 @@ const Navbar = () => {
             mouseTrackTop: 15,
           }}
         />
+        </Link>
       </div>
       <div className="w-400px flex justify-content-around">
         <div className="m-auto">

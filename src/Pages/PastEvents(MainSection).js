@@ -31,7 +31,7 @@ const PastEvents = () => {
             <div className="surface-card shadow-2 p-3 border-round">
               <div className="flex justify-content-between mb-3">
                 <div>
-                  <span className="block text-500 font-medium mb-3">E-HariZon</span>
+                  <span className="block text-500 font-medium mb-3">E-HoriZon</span>
                   <div className="text-900 font-medium text-xl">April-2022</div>
                 </div>
                 <div
@@ -41,7 +41,7 @@ const PastEvents = () => {
                   <i className="pi pi-calendar text-orange-500 text-xl"></i>
                 </div>
               </div>
-              <span className="text-green-500 font-medium">ECE </span>
+              <span className="text-green-500 font-medium">EMDC </span>
               <span className="text-500">Department</span>
             </div>
           </div>
