@@ -25,18 +25,6 @@ const Navbar = () => {
             className="p-button-raised p-button-secondary p-button-text"
           />
         </div>
-        <div className="m-auto">
-          <Button
-            label="Contact"
-            className="p-button-raised p-button-secondary p-button-text"
-          />
-        </div>
-        <div className="m-auto">
-          <Button
-            label="About"
-            className="p-button-raised p-button-secondary p-button-text"
-          />
-        </div>
       </div>
     </div>
   );
