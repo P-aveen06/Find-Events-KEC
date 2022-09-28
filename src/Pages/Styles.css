@@ -16270,3 +16270,10 @@
         min-width: 0;
     }
 }
+#error-bt{
+  background-color: rgb(253, 216, 222);
+}
+#error-bt:hover {
+  color: pink;
+  background-color: rgb(239, 243, 248);
+}

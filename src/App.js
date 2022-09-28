@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 // import SignIn from './Pages/SignIn(App)';
-import HomePage from './Pages/HomePage(App)';
+// import HomePage from './Pages/HomePage(App)';
 // import { SignUp } from './Pages/SignUp(App)';
+import Error from './Pages/ErrorPages';
 // import EventsPage from './Pages/EventsPage(App)';
 import './Pages/Styles.css'
 import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
@@ -10,10 +11,11 @@ import "primereact/resources/primereact.min.css"; //core css
 import "primeicons/primeicons.css"; //icons
 const App=() =>{
  return (<div className='App m-auto width-1024px height-100'>
-   <HomePage/>
+   {/* <HomePage/> */}
    {/* <SignIn/> */}
    {/* <EventsPage/> */}
    {/* <SignUp/> */}
+   <Error/>
  </div>);
 }
 
