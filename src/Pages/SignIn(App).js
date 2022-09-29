@@ -35,7 +35,7 @@ const SignIn = () => {
               Don't have an account?
             </span>
             <Link to='/signup'>
-              Create today!
+              Create Now!
             </Link>
           </div>
 
